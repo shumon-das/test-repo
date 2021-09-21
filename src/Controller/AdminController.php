@@ -8,6 +8,9 @@ class AdminController
 {
     public function admin(): Response
     {
-        return new Response('I am admin');
+        $first_name = 'mono';
+        $last_name = 'ranjan';
+
+        return new Response(sprintf('I am admin %s-%s', $first_name, $last_name));
     }
 }
