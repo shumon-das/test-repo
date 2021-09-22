@@ -6,6 +6,9 @@ use Symfony\Component\HttpFoundation\Response;
 
 class AdminController
 {
+    /**
+     * @return Response
+     */
     public function admin(): Response
     {
         $first_name = 'mono';
